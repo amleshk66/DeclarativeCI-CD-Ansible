@@ -13,7 +13,7 @@ pipeline {
       jdk 'JAVA_HOME'
     }
   options { 
-    timestamps () 
+    //timestamps () 
     buildDiscarder logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '10', numToKeepStr: '5')	
 // numToKeepStr - Max # of builds to keep
 // daysToKeepStr - Days to keep builds
